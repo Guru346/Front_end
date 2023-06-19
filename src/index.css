@@ -1,0 +1,26 @@
+/* .a{
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+} */
+
+
+/* ul{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+ul li {
+    padding: 20px;
+display: inline;
+} */
+
+table{
+    width:100%; 
+    border-collapse : collapse;
+    padding:20px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 20px;
+}
