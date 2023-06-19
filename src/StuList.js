@@ -11,7 +11,8 @@ function StuList(){
     const [sort,setSort]=useState("")
     useEffect(()=>{
         // fetch("http://localhost:3007/Student")
-        fetch(`http://localhost:3007/Student?_start=${0}&_end$=${3}`)
+        // fetch(`http://localhost:3007/Student?_start=${0}&_end$=${3}`)
+        fetch("https://json-rest-api-gn9a.onrender.com/Student")
         .then((res)=>{
             return res.json()
         })
